@@ -1,0 +1,32 @@
+.btn {
+    background: none;
+    border: none;
+    border-radius: 16px;
+    background-color: #20b78e;
+    padding: 16px 54px;
+    color: #ffffff;
+}
+
+
+.badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 10px;
+    line-height: 12px;
+    width: max-content;
+
+    &.info {
+        background-color: #eff4fa;
+        color: #95afd3;
+    }
+
+    &.success {
+        background-color: #e3fdf4;
+        color: #6ccfb2;
+    }
+
+    &.danger {
+        background-color: #ffe9ed;
+        color: #fa8b8c;
+    }
+}
