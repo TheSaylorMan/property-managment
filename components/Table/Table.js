@@ -1,8 +1,8 @@
 const Table = () => {
-    const table = document.createElement('div');
-    table.innerText = 'table';
+  const table = document.createElement('div');
+  table.innerText = "Table";
 
-    return table;
+  return table;
 }
 
 export default Table;

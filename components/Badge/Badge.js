@@ -1,9 +1,9 @@
-const Badge = (text, theme = "neutral") => {
-    const div = document.createElement('div');
-    div.classList = `badge ${theme}`;
-    div.innerText = text;
+const Badge = (text, theme = "info") => {
+  const badge = document.createElement('div');
+  badge.classList = `badge ${theme}`;
+  badge.innerText = text;
 
-    return div;
-};
+  return badge;
+}
 
 export default Badge;
